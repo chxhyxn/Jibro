@@ -170,7 +170,7 @@
                             <outlet property="delegate" destination="ib9-O1-yV3" id="Ntb-TH-CnY"/>
                         </connections>
                     </tableView>
-                    <tabBarItem key="tabBarItem" title="Settings" selectedImage="gear" catalog="system" id="AiQ-LA-Yvh"/>
+                    <tabBarItem key="tabBarItem" title="Settings" image="gear" catalog="system" id="AiQ-LA-Yvh"/>
                 </tableViewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Kxg-hf-UBB" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
