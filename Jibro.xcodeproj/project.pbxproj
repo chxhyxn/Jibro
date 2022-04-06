@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D102461227FD85AC000F04E0 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = D102461127FD85AC000F04E0 /* Info.plist */; };
 		D1A7EB9727F3592C00AC3EF7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A7EB9627F3592C00AC3EF7 /* AppDelegate.swift */; };
 		D1A7EB9927F3592C00AC3EF7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A7EB9827F3592C00AC3EF7 /* SceneDelegate.swift */; };
 		D1A7EB9B27F3592C00AC3EF7 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1A7EB9A27F3592C00AC3EF7 /* MapViewController.swift */; };
@@ -19,7 +20,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		D1A7EB9327F3592C00AC3EF7 /* PointYouWant.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PointYouWant.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D102461127FD85AC000F04E0 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D1A7EB9327F3592C00AC3EF7 /* Jibro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Jibro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D1A7EB9627F3592C00AC3EF7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D1A7EB9827F3592C00AC3EF7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		D1A7EB9A27F3592C00AC3EF7 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
@@ -27,7 +29,6 @@
 		D1A7EBA027F3592C00AC3EF7 /* PointYouWant.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = PointYouWant.xcdatamodel; sourceTree = "<group>"; };
 		D1A7EBA227F3592C00AC3EF7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D1A7EBA527F3592C00AC3EF7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		D1A7EBA727F3592C00AC3EF7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D1A7EBAD27F35D0D00AC3EF7 /* CompassViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CompassViewController.swift; sourceTree = "<group>"; };
 		D1A7EC0527F384A200AC3EF7 /* RotationableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotationableView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -46,7 +47,7 @@
 		D1A7EB8A27F3592C00AC3EF7 = {
 			isa = PBXGroup;
 			children = (
-				D1A7EB9527F3592C00AC3EF7 /* PointYouWant */,
+				D1A7EB9527F3592C00AC3EF7 /* Jibro */,
 				D1A7EB9427F3592C00AC3EF7 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -54,12 +55,12 @@
 		D1A7EB9427F3592C00AC3EF7 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D1A7EB9327F3592C00AC3EF7 /* PointYouWant.app */,
+				D1A7EB9327F3592C00AC3EF7 /* Jibro.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		D1A7EB9527F3592C00AC3EF7 /* PointYouWant */ = {
+		D1A7EB9527F3592C00AC3EF7 /* Jibro */ = {
 			isa = PBXGroup;
 			children = (
 				D1A7EBA427F3592C00AC3EF7 /* LaunchScreen.storyboard */,
@@ -70,10 +71,10 @@
 				D1A7EBB227F35D4500AC3EF7 /* Compass */,
 				D1A7EC0727F384AB00AC3EF7 /* Supports */,
 				D1A7EBA227F3592C00AC3EF7 /* Assets.xcassets */,
-				D1A7EBA727F3592C00AC3EF7 /* Info.plist */,
 				D1A7EB9F27F3592C00AC3EF7 /* PointYouWant.xcdatamodeld */,
+				D102461127FD85AC000F04E0 /* Info.plist */,
 			);
-			path = PointYouWant;
+			path = Jibro;
 			sourceTree = "<group>";
 		};
 		D1A7EBB127F35D3A00AC3EF7 /* Map */ = {
@@ -103,9 +104,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		D1A7EB9227F3592C00AC3EF7 /* PointYouWant */ = {
+		D1A7EB9227F3592C00AC3EF7 /* Jibro */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = D1A7EBAA27F3592C00AC3EF7 /* Build configuration list for PBXNativeTarget "PointYouWant" */;
+			buildConfigurationList = D1A7EBAA27F3592C00AC3EF7 /* Build configuration list for PBXNativeTarget "Jibro" */;
 			buildPhases = (
 				D1A7EB8F27F3592C00AC3EF7 /* Sources */,
 				D1A7EB9027F3592C00AC3EF7 /* Frameworks */,
@@ -115,9 +116,9 @@
 			);
 			dependencies = (
 			);
-			name = PointYouWant;
+			name = Jibro;
 			productName = PointYouWant;
-			productReference = D1A7EB9327F3592C00AC3EF7 /* PointYouWant.app */;
+			productReference = D1A7EB9327F3592C00AC3EF7 /* Jibro.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -135,7 +136,7 @@
 					};
 				};
 			};
-			buildConfigurationList = D1A7EB8E27F3592C00AC3EF7 /* Build configuration list for PBXProject "PointYouWant" */;
+			buildConfigurationList = D1A7EB8E27F3592C00AC3EF7 /* Build configuration list for PBXProject "Jibro" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -148,7 +149,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D1A7EB9227F3592C00AC3EF7 /* PointYouWant */,
+				D1A7EB9227F3592C00AC3EF7 /* Jibro */,
 			);
 		};
 /* End PBXProject section */
@@ -158,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D102461227FD85AC000F04E0 /* Info.plist in Resources */,
 				D1A7EBA627F3592C00AC3EF7 /* LaunchScreen.storyboard in Resources */,
 				D1A7EBA327F3592C00AC3EF7 /* Assets.xcassets in Resources */,
 				D1A7EB9E27F3592C00AC3EF7 /* Main.storyboard in Resources */,
@@ -333,8 +335,9 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PointYouWant/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = PointYouWant;
+				INFOPLIST_KEY_CFBundleDisplayName = Jibro;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -347,7 +350,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SeanCho.PointYouWant;
+				PRODUCT_BUNDLE_IDENTIFIER = SeanCho.Jibro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -370,8 +373,9 @@
 				);
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = PointYouWant/Info.plist;
-				INFOPLIST_KEY_CFBundleDisplayName = PointYouWant;
+				INFOPLIST_KEY_CFBundleDisplayName = Jibro;
 				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "";
 				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
@@ -384,7 +388,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = SeanCho.PointYouWant;
+				PRODUCT_BUNDLE_IDENTIFIER = SeanCho.Jibro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -395,7 +399,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		D1A7EB8E27F3592C00AC3EF7 /* Build configuration list for PBXProject "PointYouWant" */ = {
+		D1A7EB8E27F3592C00AC3EF7 /* Build configuration list for PBXProject "Jibro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1A7EBA827F3592C00AC3EF7 /* Debug */,
@@ -404,7 +408,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		D1A7EBAA27F3592C00AC3EF7 /* Build configuration list for PBXNativeTarget "PointYouWant" */ = {
+		D1A7EBAA27F3592C00AC3EF7 /* Build configuration list for PBXNativeTarget "Jibro" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				D1A7EBAB27F3592C00AC3EF7 /* Debug */,

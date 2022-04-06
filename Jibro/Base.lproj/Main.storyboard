@@ -21,9 +21,9 @@
                                 <rect key="frame" x="0.0" y="44" width="414" height="769"/>
                             </mapView>
                             <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="Where i want to go..." textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Tze-iJ-Ziu">
-                                <rect key="frame" x="20" y="64" width="374" height="50"/>
+                                <rect key="frame" x="20" y="54" width="334" height="45"/>
                                 <constraints>
-                                    <constraint firstAttribute="height" constant="50" id="S2W-KX-VT0"/>
+                                    <constraint firstAttribute="height" constant="45" id="S2W-KX-VT0"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" returnKeyType="search" smartDashesType="no" smartInsertDeleteType="no" smartQuotesType="no"/>
@@ -35,9 +35,9 @@
                             <constraint firstItem="Tze-iJ-Ziu" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="20" id="6Vn-P0-IPH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="vJr-gU-2fX" secondAttribute="bottom" id="AHZ-Po-9Cx"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="vJr-gU-2fX" secondAttribute="trailing" id="ITR-IE-B1N"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tze-iJ-Ziu" secondAttribute="trailing" constant="20" id="IoC-Pe-eKl"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Tze-iJ-Ziu" secondAttribute="trailing" constant="60" id="IoC-Pe-eKl"/>
                             <constraint firstItem="vJr-gU-2fX" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="O4b-3a-1T5"/>
-                            <constraint firstItem="vJr-gU-2fX" firstAttribute="top" secondItem="Tze-iJ-Ziu" secondAttribute="bottom" constant="-70" id="hbp-cG-60w"/>
+                            <constraint firstItem="vJr-gU-2fX" firstAttribute="top" secondItem="Tze-iJ-Ziu" secondAttribute="bottom" constant="-55" id="R63-9R-zEg"/>
                             <constraint firstItem="vJr-gU-2fX" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="tp2-5q-Ieg"/>
                         </constraints>
                     </view>
@@ -245,7 +245,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Hst-Nc-Hip" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="44.927536231884062" y="809.59821428571422"/>
+            <point key="canvasLocation" x="45" y="810"/>
         </scene>
     </scenes>
     <resources>
