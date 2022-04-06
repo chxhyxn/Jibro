@@ -29,8 +29,8 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="집으로" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8kp-nb-QbU">
-                                <rect key="frame" x="234" y="383" width="104" height="48"/>
-                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="40"/>
+                                <rect key="frame" x="232" y="385" width="104" height="48"/>
+                                <fontDescription key="fontDescription" type="system" weight="heavy" pointSize="40"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
@@ -38,12 +38,12 @@
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="Ca6-uJ-Z2d" firstAttribute="top" secondItem="8kp-nb-QbU" secondAttribute="bottom" constant="8.5" id="2iv-xU-Ucn"/>
+                            <constraint firstItem="Ca6-uJ-Z2d" firstAttribute="top" secondItem="8kp-nb-QbU" secondAttribute="bottom" constant="6.5" id="2iv-xU-Ucn"/>
                             <constraint firstItem="Ca6-uJ-Z2d" firstAttribute="top" secondItem="MBg-GS-eM6" secondAttribute="bottom" constant="8.5" id="PqI-Uu-1CN"/>
                             <constraint firstItem="Ca6-uJ-Z2d" firstAttribute="centerY" secondItem="6Tk-OE-BBY" secondAttribute="centerY" id="YfL-ka-aip"/>
                             <constraint firstItem="Ca6-uJ-Z2d" firstAttribute="leading" secondItem="MBg-GS-eM6" secondAttribute="trailing" constant="-143" id="ZeZ-ps-Utk"/>
                             <constraint firstItem="Ca6-uJ-Z2d" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="mWe-1H-5ia"/>
-                            <constraint firstItem="8kp-nb-QbU" firstAttribute="leading" secondItem="Ca6-uJ-Z2d" secondAttribute="trailing" constant="-97.5" id="ul3-Vl-MH2"/>
+                            <constraint firstItem="8kp-nb-QbU" firstAttribute="leading" secondItem="Ca6-uJ-Z2d" secondAttribute="trailing" constant="-99.5" id="ul3-Vl-MH2"/>
                         </constraints>
                     </view>
                 </viewController>
