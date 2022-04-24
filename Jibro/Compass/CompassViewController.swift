@@ -6,7 +6,6 @@
 //
 
 import UIKit
-import CoreLocation
 
 class CompassViewController: UIViewController {
     override func viewDidLoad() {
